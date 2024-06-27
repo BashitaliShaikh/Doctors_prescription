@@ -1,7 +1,7 @@
-# DocScribe: Medical QA Chatbot
+# BreadcrumbsDoctors_prescription bot: Medical QA Chatbot
 
 ## Introduction
-DocScribe is a medical question-and-answer chatbot that revolutionizes how we interact with medical data. DocScribe provides quick, accurate responses to both general medical inquiries and patient-specific questions. Our main goal is to enhance medical report accessibility and comprehension. DocScribe achieves this through:
+Doctors_prescription is a medical question-and-answer chatbot that revolutionizes how we interact with medical data. DocScribe provides quick, accurate responses to both general medical inquiries and patient-specific questions. Our main goal is to enhance medical report accessibility and comprehension. DocScribe achieves this through:
 
 - Transcription of medical reports into a more accessible format.
 - Providing answers to general medical questions.
@@ -9,12 +9,12 @@ DocScribe is a medical question-and-answer chatbot that revolutionizes how we in
 - Identifying relevant information from patient history.
 
 ## Architecture
-DocScribe's architecture facilitates a seamless interaction between users and medical data. It incorporates:
+Doctors_prescription architecture facilitates a seamless interaction between users and medical data. It incorporates:
 - A Jupyter Notebook-based Web UI for uploading reports and further interaction.
 - The creation of embeddings and indexes from medical transcripts.
 - The utilization of LangChain and HuggingFace frameworks for processing and answering questions.
 
-![DocScribe Architecture](assets/images/architecture.png)
+![Doctors_prescription Architecture](assets/images/architecture.png)
 
 
 ## Data Sources
@@ -88,11 +88,11 @@ We opted for the Vicuna-13B model, fine-tuned with LoRA, PEFT, and bitsandbytes.
 </table>
 
 ## Results & Future Work
-DocScribe has shown remarkable proficiency in processing medical queries and summarizing patient reports. Future directions include expanding the model's training on medical corpuses, incorporating medical image analysis, and exploring its application in clinical research.
+Doctors_prescription has shown remarkable proficiency in processing medical queries and summarizing patient reports. Future directions include expanding the model's training on medical corpuses, incorporating medical image analysis, and exploring its application in clinical research.
 
 ## Installation
 ```bash
-git clone https://github.com/kmnis/DocScribe.git
+git clone 
 cd DocScribe
 pip install -r requirements.txt
 
@@ -101,10 +101,3 @@ jupyter notebook
 
 # Open your browser and open http://localhost:8888/inference and open a notebook
 ```
-
----
-
-## Team
-- Manish Kumar (mnis@uchicago.edu)
-- Kargil Thakur (kargil@uchicago.edu)
-- Ekansh Trivedi (ekansh@uchicago.edu)
