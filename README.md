@@ -1,4 +1,4 @@
-# BreadcrumbsDoctors_prescription bot: Medical QA Chatbot
+# Doctors_prescription bot: Medical QA Chatbot
 
 ## Introduction
 Doctors_prescription is a medical question-and-answer chatbot that revolutionizes how we interact with medical data. DocScribe provides quick, accurate responses to both general medical inquiries and patient-specific questions. Our main goal is to enhance medical report accessibility and comprehension. DocScribe achieves this through:
